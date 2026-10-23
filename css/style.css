@@ -1,0 +1,192 @@
+
+/* General website styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: lightskyblue;
+    color: #333;
+}
+
+/* Main navigation */
+nav {
+    background-color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    background-color: #f0f0f0;
+}
+
+/* Main content sections */
+main {
+    width: 100%;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Responsive profile image */
+section img {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Portfolio table */
+table {
+    width: 80%;
+    max-width: 800px;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th,
+td {
+    border: 1px solid #333;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+td {
+    font-size: 17px;
+}
+
+tr:hover {
+    background-color: #f2f2f2;
+}
+
+/* Externally hosted portfolio image */
+.portfolio-image {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+figure figcaption {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    margin-top: 30px;
+}
+
+/* Tablet screens */
+@media (max-width: 768px) {
+    section {
+        padding: 35px 15px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    table {
+        width: 95%;
+    }
+
+    th,
+    td {
+        padding: 8px;
+    }
+}
+
+/* Mobile screens */
+@media (max-width: 480px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav a {
+        padding: 12px;
+    }
+
+    section {
+        padding: 25px 12px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    th,
+    td {
+        padding: 6px;
+        font-size: 14px;
+        overflow-wrap: anywhere;
+    }
+}
