@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: lightskyblue;
+    color: #333;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #333;
+}
+nav a:hover {
+    background-color: #f0f0f0;
+}
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+section img {
+    display: block;
+    margin: 20px auto;
+    width: 250px;
+    height: 500px;
+    object-fit: cover;
+}
+
+table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+td {
+    font-size: 17px;
+}
+
+tr:hover {
+    background-color: #f2f2f2;
+}
+
+/* Dark Mode Styling */
+body.dark-mode {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+body.dark-mode nav,
+body.dark-mode footer {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+body.dark-mode a {
+    color: #87cefa;
+}
+
+#theme-toggle {
+    padding: 10px 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333333;
+    color: white;
+    cursor: pointer;
+}
+
+#theme-toggle:hover {
+    background-color: #555555;
+}
+
+/* Digital Clock Styling */
+.clock-container {
+    margin: 20px auto;
+    padding: 15px;
+    max-width: 250px;
+    background-color: white;
+    color: #333333;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+#digital-clock {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0071bc;
+}
+
+/* Back-to-Top Button */
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 12px 18px;
+    background-color: #0071bc;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    z-index: 1000;
+}
+
+#back-to-top:hover {
+    background-color: #00558f;
+}
